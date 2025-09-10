@@ -1,0 +1,57 @@
+/* Custom styles for Descope authentication UI */
+.descope-root {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Fix form width */
+.descope-form {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+}
+
+/* Fix button styles to match our theme */
+.descope-button {
+  background-color: var(--descope-primary-color, #0d47a1) !important;
+  border-radius: 0.5rem !important;
+  padding: 0.75rem 1rem !important;
+  font-weight: 500 !important;
+  transition: background-color 0.2s ease-in-out !important;
+}
+
+.descope-button:hover {
+  background-color: var(--descope-primary-hover-color, #002171) !important;
+}
+
+/* Input field styling */
+.descope-input {
+  border-radius: 0.5rem !important;
+  border: 1px solid #e0e0e0 !important;
+  padding: 0.75rem 1rem !important;
+  transition: border-color 0.2s ease-in-out !important;
+}
+
+.descope-input:focus {
+  border-color: #0d47a1 !important;
+  outline: none !important;
+  box-shadow: 0 0 0 3px rgba(13, 71, 161, 0.1) !important;
+}
+
+/* Social login buttons */
+.descope-social-button {
+  border-radius: 0.5rem !important;
+}
+
+/* Text styling */
+.descope-text {
+  font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif !important;
+}
+
+/* Error message styling */
+.descope-error {
+  border-radius: 0.5rem !important;
+  padding: 0.75rem 1rem !important;
+}

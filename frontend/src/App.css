@@ -1,0 +1,65 @@
+/* Custom styles that can't be handled by Tailwind */
+#root {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Animation for loading spinner */
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+.animate-spin {
+  animation: spin 1s linear infinite;
+}
+
+/* Button styling */
+button, .button {
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+/* Card styling */
+.card {
+  transition: all 0.2s ease;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
+
+.card:hover {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Line clamp for multi-line truncation */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;  
+  overflow: hidden;
+}
+
+/* Descope customization */
+.descope-container {
+  --descope-border-radius: 8px !important;
+  --descope-primary-color: #0d47a1 !important;
+  --descope-primary-hover-color: #002171 !important;
+}
+
+/* Ensure Descope forms stay within their container */
+.descope-form {
+  max-width: 100% !important;
+  overflow: hidden !important;
+}
+
+/* Ensure the text inputs match our styling */
+.descope-input {
+  border-radius: 8px !important;
+  padding: 10px !important;
+}
+
+/* Button styling to match our design */
+.descope-button {
+  border-radius: 8px !important;
+  transition: background-color 0.3s !important;
+}
