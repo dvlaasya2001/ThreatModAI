@@ -1,7 +1,5 @@
 # ThreatModAI: AI-Powered Security Threat Modeling
 
-![ThreatModAI Logo](https://via.placeholder.com/200x50?text=ThreatModAI)
-
 ## Global MCP Hackathon 2025 Submission
 
 
